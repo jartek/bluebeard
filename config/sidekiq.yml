@@ -1,0 +1,10 @@
+---
+:verbose: false
+:pidfile: ./tmp/pids/sidekiq.pid
+:concurrency: 1
+:timeout: 30
+:queues:
+  - competitions
+  - teams
+  - players
+  - stadia
